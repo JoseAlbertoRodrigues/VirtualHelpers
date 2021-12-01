@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?d9x8b2');
+  src:  url('fonts/icomoon.eot?d9x8b2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?d9x8b2') format('truetype'),
+    url('fonts/icomoon.woff?d9x8b2') format('woff'),
+    url('fonts/icomoon.svg?d9x8b2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up:before {
+  content: "\e916";
+}
+.icon-modem:before {
+  content: "\e900";
+}
+.icon-wifi:before {
+  content: "\e900";
+}
+.icon-security:before {
+  content: "\e901";
+}
+.icon-stats:before {
+  content: "\e902";
+}
+.icon-monitor:before {
+  content: "\e902";
+}
+.icon-board:before {
+  content: "\e902";
+}
+.icon-address-card-o:before {
+  content: "\e903";
+}
+.icon-vcard-o:before {
+  content: "\e903";
+}
+.icon-address-card:before {
+  content: "\e904";
+}
+.icon-vcard:before {
+  content: "\e904";
+}
+.icon-shield:before {
+  content: "\e905";
+}
+.icon-copy:before {
+  content: "\e906";
+}
+.icon-files-o:before {
+  content: "\e906";
+}
+.icon-github:before {
+  content: "\e907";
+}
+.icon-whatsapp:before {
+  content: "\e908";
+}
+.icon-shield1:before {
+  content: "\e909";
+}
+.icon-monitor1:before {
+  content: "\e90a";
+}
+.icon-copy1:before {
+  content: "\e90b";
+}
+.icon-github1:before {
+  content: "\e90c";
+}
+.icon-youtube:before {
+  content: "\e90d";
+}
+.icon-menu:before {
+  content: "\e90e";
+}
+.icon-map-pin:before {
+  content: "\e90f";
+}
+.icon-x:before {
+  content: "\e910";
+}
+.icon-mail:before {
+  content: "\e911";
+}
+.icon-instagram:before {
+  content: "\e912";
+}
+.icon-facebook:before {
+  content: "\e913";
+}
+.icon-phone:before {
+  content: "\e914";
+}
+.icon-engrenagens:before {
+  content: "\e915";
+}
