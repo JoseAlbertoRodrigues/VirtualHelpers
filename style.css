@@ -915,6 +915,38 @@ footer .social a:hover {
     display: inline-block;
   }
 
+  /* Services */
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* Testimonials */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Paymant */
+  #paymant .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Contact */
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text {
+    max-width: 25rem;
+  }
+
+
 
 
 }
