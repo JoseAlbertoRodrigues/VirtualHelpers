@@ -912,7 +912,7 @@ footer .social a:hover {
 
   #home .text {
     order: 0;
-    max-width: 24rem;
+    max-width: 22rem;
     text-align: left;
   }
 
@@ -924,7 +924,6 @@ footer .social a:hover {
 
   #about .image {
     width: 25rem;
-    height: 25rem;
     margin: auto;
     margin-right: auto;
   }
@@ -939,8 +938,8 @@ footer .social a:hover {
   }
 
   .card {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   /* Testimonials */
