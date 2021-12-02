@@ -909,12 +909,14 @@ footer .social a:hover {
   /* About */
   #about .container {
     margin: 0 auto;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
   }
 
   #about .image {
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    margin-right: auto;
   }
 
   #about .image .text {
