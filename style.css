@@ -563,18 +563,18 @@ footer .social a:hover {
   }
 
   .container {
-    max-width: 960px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
 
   header a.logo {
     margin-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .section {
-    padding: 8rem 0;
+    padding: 6rem 0;
   }
 
   .section header,
@@ -727,8 +727,13 @@ footer .social a:hover {
     margin-right: auto;
   }
 
+  header a.logo {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+  
   .section {
-    padding: 10rem 0;
+    padding: 8rem 0;
   }
 
   .section header,
