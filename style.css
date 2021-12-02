@@ -878,5 +878,43 @@ footer .social a:hover {
     display: none;
   }
 
+  /* Layout */
+  main {
+    margin-top: var(--header-height);
+  }
+
+  /* Home */
+  #home .container {
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .image {
+    order: 1;
+  }
+
+  #home .text {
+    order: 0;
+    max-width: 24rem;
+    text-align: left;
+  }
+
+  /* About */
+  #about .container {
+    margin: 0 auto;
+    grid-auto-flow: column;
+  }
+
+  #about .image {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  #about .image .text {
+    display: inline-block;
+  }
+
+
 
 }
