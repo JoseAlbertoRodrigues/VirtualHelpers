@@ -554,33 +554,47 @@ footer .social a:hover {
   transform: translateY(0);
 }
 
-/*========= MEDIA QUERIES =========*/
-/* extra large devices: 1200 > */
-@media (min-width: 1200px) {
+/* medium devices: 768 > */
+@media (min-width: 768px) {
   /* reusable classes */
+  :root {
+    --title-font-size: 1.5rem;
+    --subtitle-font-size: 0.9rem;
+  }
+
   .container {
-    max-width: 1120px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
 
+  header a.logo {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+
   .section {
-    padding: 10rem 0;
+    padding: 6rem 0;
   }
 
   .section header,
   #testimonials header {
-    max-width: 32rem;
+    max-width: 30rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
 
   .button {
-    height: 3.125rem;
+    height: 3rem;
   }
 
   /* navigation */
+  nav {
+    font-size: 1.2rem;
+    display: flex;
+  }
+
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -589,12 +603,13 @@ footer .social a:hover {
 
   nav .menu ul {
     display: flex;
-    gap: 2rem;
+    gap: 0.7rem;
   }
 
   nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
+    font: 400 1rem var(--body-color);
     -webkit-font-smoothing: antialiased;
+    margin-right: 0.7rem;
   }
 
   nav .menu ul li a.title.active {
@@ -606,12 +621,12 @@ footer .social a:hover {
     display: none;
   }
 
-  /* layout */
+  /* Layout */
   main {
     margin-top: var(--header-height);
   }
 
-  /* home */
+  /* Home */
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
@@ -624,38 +639,48 @@ footer .social a:hover {
 
   #home .text {
     order: 0;
-    max-width: 24rem;
+    max-width: 22rem;
     text-align: left;
   }
 
-  /* about */
+  /* About */
   #about .container {
     margin: 0 auto;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
   }
 
-  /* services */
+  #about .image {
+    width: 25rem;
+    margin: auto;
+    margin-right: auto;
+  }
+
+  #about .image .text {
+    display: inline-block;
+  }
+
+  /* Services */
   .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .card {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
-  /* testimonials */
+  /* Testimonials */
   #testimonials .container {
     margin-left: auto;
     margin-right: auto;
   }
 
   /* Paymant */
-  #paymant .cards{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  #paymant .cards {
+    grid-template-columns: 1fr 1fr;
   }
 
-  /* contact */
+  /* Contact */
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
@@ -665,7 +690,7 @@ footer .social a:hover {
     max-width: 25rem;
   }
 
-  /* footer */
+  /* Footer */
   footer.section {
     padding: 3.75rem 0;
   }
@@ -677,9 +702,16 @@ footer .social a:hover {
   }
 
   footer .logo {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
-}
+
+  footer a.logo-alt {
+    color: white;
+  }
+  footer a.logo-alt span {
+    color: black;
+  }
+
 /* large devices: 1023 > */
 /* large devices: 992 > */
 @media (min-width: 992px) {
@@ -690,13 +722,18 @@ footer .social a:hover {
   }
 
   .container {
-    max-width: 1000px;
+    max-width: 926px;
     margin-left: auto;
     margin-right: auto;
   }
 
+  header a.logo {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+  
   .section {
-    padding: 10rem 0;
+    padding: 8rem 0;
   }
 
   .section header,
@@ -827,11 +864,13 @@ footer .social a:hover {
     color: black;
   }
 }
-/* medium devices: 768 > */
-@media (min-width: 768px) {
+
+/*========= MEDIA QUERIES =========*/
+/* extra large devices: 1200 > */
+@media (min-width: 1200px) {
   /* reusable classes */
   .container {
-    max-width: 700px;
+    max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -853,12 +892,6 @@ footer .social a:hover {
   }
 
   /* navigation */
-  nav {
-    font-size: 0.825rem;
-    font-weight: 400;
-    display: flex;
-  }
-
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -871,7 +904,7 @@ footer .social a:hover {
   }
 
   nav .menu ul li a.title {
-    font: 400 1rem var(--body-color);
+    font: 400 1rem var(--body-font);
     -webkit-font-smoothing: antialiased;
   }
 
@@ -884,12 +917,12 @@ footer .social a:hover {
     display: none;
   }
 
-  /* Layout */
+  /* layout */
   main {
     margin-top: var(--header-height);
   }
 
-  /* Home */
+  /* home */
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
@@ -906,26 +939,15 @@ footer .social a:hover {
     text-align: left;
   }
 
-  /* About */
+  /* about */
   #about .container {
     margin: 0 auto;
-    grid-auto-flow: row;
+    grid-auto-flow: column;
   }
 
-  #about .image {
-    width: 25rem;
-    height: 25rem;
-    margin: auto;
-    margin-right: auto;
-  }
-
-  #about .image .text {
-    display: inline-block;
-  }
-
-  /* Services */
+  /* services */
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .card {
@@ -933,18 +955,18 @@ footer .social a:hover {
     padding-right: 3rem;
   }
 
-  /* Testimonials */
+  /* testimonials */
   #testimonials .container {
     margin-left: auto;
     margin-right: auto;
   }
 
   /* Paymant */
-  #paymant .cards {
-    grid-template-columns: 1fr 1fr;
+  #paymant .cards{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  /* Contact */
+  /* contact */
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
@@ -954,7 +976,7 @@ footer .social a:hover {
     max-width: 25rem;
   }
 
-  /* Footer */
+  /* footer */
   footer.section {
     padding: 3.75rem 0;
   }
@@ -966,16 +988,9 @@ footer .social a:hover {
   }
 
   footer .logo {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
   }
-
-  footer a.logo-alt {
-    color: white;
-  }
-  footer a.logo-alt span {
-    color: black;
-  }
-
+}
 
 
 
