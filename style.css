@@ -831,7 +831,7 @@ footer .social a:hover {
 @media (min-width: 768px) {
   /* reusable classes */
   .container {
-    max-width: 750px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -853,6 +853,12 @@ footer .social a:hover {
   }
 
   /* navigation */
+  nav {
+    font-size: 0.825rem;
+    font-weight: 400;
+    display: flex;
+  }
+
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -944,6 +950,28 @@ footer .social a:hover {
 
   #contact .text {
     max-width: 25rem;
+  }
+
+  /* Footer */
+  footer.section {
+    padding: 3.75rem 0;
+  }
+
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    font-size: 1.5rem;
+  }
+
+  footer a.logo-alt {
+    color: white;
+  }
+  footer a.logo-alt span {
+    color: black;
   }
 
 
