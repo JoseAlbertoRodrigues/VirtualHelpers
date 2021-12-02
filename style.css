@@ -864,7 +864,7 @@ footer .social a:hover {
 
   /* navigation */
   nav {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
   }
 
@@ -876,12 +876,13 @@ footer .social a:hover {
 
   nav .menu ul {
     display: flex;
-    gap: 1.5rem;
+    gap: 0.7rem;
   }
 
   nav .menu ul li a.title {
     font: 400 1rem var(--body-color);
     -webkit-font-smoothing: antialiased;
+    margin-right: 0.7rem;
   }
 
   nav .menu ul li a.title.active {
