@@ -841,26 +841,30 @@ footer .social a:hover {
     margin-right: auto;
   }
 
+  header a.logo {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+
   .section {
     padding: 8rem 0;
   }
 
   .section header,
   #testimonials header {
-    max-width: 32rem;
+    max-width: 30rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
 
   .button {
-    height: 3.125rem;
+    height: 3rem;
   }
 
   /* navigation */
   nav {
-    font-size: 0.825rem;
-    font-weight: 400;
+    font-size: 1rem;
     display: flex;
   }
 
@@ -872,7 +876,7 @@ footer .social a:hover {
 
   nav .menu ul {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   nav .menu ul li a.title {
