@@ -434,6 +434,11 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+#paymant div.subtitle p.subtitle sup {
+  font-size: 1rem;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
 #paymant p span {
   margin-right: 0.7rem;
 }
@@ -680,6 +685,16 @@ footer .social a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  #paymant div.subtitle p.subtitle sup {
+    font-size: 1rem;
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+  }
+
+  #paymant div.subtitle strong {
+    font-size: 2rem;
+  }
+
   /* Contact */
   #contact .container {
     grid-auto-flow: column;
@@ -832,6 +847,16 @@ footer .social a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  #paymant div.subtitle p.subtitle sup {
+    font-size: 1rem;
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+  }
+
+  #paymant div.subtitle strong {
+    font-size: 2rem;
+  }
+
   /* Contact */
   #contact .container {
     grid-auto-flow: column;
@@ -960,16 +985,38 @@ footer .social a:hover {
     text-align: left;
   }
   
+  #paymant div.card {
+    padding: 1rem;
+  }
+
   #paymant .card {
     justify-content: space-between;
     flex-direction: column;
-    height: 40rem;
+    height: 30rem;
     display: flex;
   }
 
   #paymant p.pay {
     justify-content: flex-start;
     display: flex;
+  }
+
+  #paymant div.subtitle {
+    text-align: center;
+  }
+
+  #paymant div.subtitle p.subtitle .pay {
+    align-items: center;
+  }
+
+  #paymant div.subtitle p.subtitle sup {
+    font-size: 1rem;
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+  }
+
+  #paymant div.subtitle strong {
+    font-size: 1.725rem;
   }
 
   /* testimonials */
