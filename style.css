@@ -434,6 +434,10 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+#paymant p.subtitle.pay {
+  padding-top: 0;
+}
+
 #paymant div.subtitle p.subtitle sup {
   font-size: 1rem;
   text-decoration: line-through;
