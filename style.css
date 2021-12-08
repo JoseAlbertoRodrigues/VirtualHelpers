@@ -869,10 +869,20 @@ footer .social a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  #paymant p.subtitle.pay {
+    padding: 0;
+    margin: 0;
+    height: 1.5rem;
+  }
+
   #paymant div.subtitle p.subtitle sup {
     font-size: 1rem;
     text-decoration: line-through;
     margin-right: 0.5rem;
+  }
+
+  #paymant div.subtitle {
+    margin-top: 2rem;
   }
 
   #paymant div.subtitle strong {
