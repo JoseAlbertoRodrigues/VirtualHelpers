@@ -20,7 +20,11 @@ img {
 
 /*====  VARIABLES ============================ */
 :root {
-  --header-height: 4.5rem;
+  /* --header-height: 4.5rem; */
+  
+  /* cor principal */
+  /* --body-bg-color: #FAF7FD;
+  --purple: #BB99DD; */
 
   /* colors */
   --hue: 227;
@@ -1016,7 +1020,7 @@ footer .social a:hover {
   #paymant p {
     text-align: left;
   }
-  
+
   #paymant div.card {
     padding: 1rem;
   }
